@@ -1,0 +1,15 @@
+.header-cart{
+    white-space: nowrap;
+    background-color: black;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+.header-cart:hover{
+    background-color: rgba(69, 64, 228, 0.55);
+}
+.header-cart:active{
+    transform: scale(0.95);
+}
